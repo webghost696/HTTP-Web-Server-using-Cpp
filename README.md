@@ -13,3 +13,13 @@ This project is a simple HTTP server built using C++ and Winsock2. It handles ba
 ```bash
 git clone https://github.com/webghost696/HTTP-Web-Server-using-Cpp.git
 cd HTTP-Web-Server-using-Cpp
+```
+### 2. Compile the server
+```bash
+g++ server.cpp -o server.exe -lws2_32
+```
+### 3. Run the Server
+```bash
+./server.exe
+```
+### 4. Enjoy your very own HTTP Server on "http://localhost:8080/index.html"
